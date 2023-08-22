@@ -72,7 +72,7 @@ a {
     align-items: flex-start; /* Align sections to the top */
     min-height: calc(100vh - 70px);
     padding: 200px;
-    width: 100%; /* Adjust width for content */
+    width: 150%; /* Adjust width for content */
 }
 
 .recent-questions, .question-details, .post-question, .user-info, .user-stats, .most-answered {
