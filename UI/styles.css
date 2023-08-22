@@ -45,3 +45,16 @@ a {
     color: #ff0000;
     text-decoration: none;
 }
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #f0f5f9;
+    padding: 10px;
+    text-align: center;
+}
