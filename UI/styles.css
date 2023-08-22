@@ -45,6 +45,7 @@ a {
     color: #ff0000;
     text-decoration: none;
 }
+
 .header {
     background-color: #007bff;
     color: #fff;
@@ -70,6 +71,39 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 70px); 
+    min-height: calc(100vh - 70px);
     padding: 20px;
+}
+
+.recent-questions, .question-details, .post-question {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.question-list, .answer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
