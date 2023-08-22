@@ -67,16 +67,17 @@ a {
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Display the sections horizontally */
+    justify-content: space-between; /* Space the sections evenly */
+    align-items: flex-start; /* Align sections to the top */
     min-height: calc(100vh - 70px);
-    padding: 20px;
+    padding: 150px;
+    width: 100%; /* Adjust width for content */
 }
 
 .recent-questions, .question-details, .post-question {
-    margin-bottom: 20px;
+    width: calc(33.33% - 10px); /* Divide the content into equal thirds and add margin */
+    margin-right: 20px; /* Add margin between sections */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -95,15 +96,7 @@ textarea {
     margin-bottom: 10px;
 }
 
-button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 button:hover {
     background-color: #0056b3;
+    color: #fff;
 }
