@@ -73,6 +73,7 @@ a {
     min-height: calc(100vh - 70px);
     padding: 200px;
     width: 150%; /* Adjust width for content */
+
 }
 
 .recent-questions, .question-details, .post-question, .user-info, .user-stats, .most-answered {
